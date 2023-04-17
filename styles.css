@@ -1,0 +1,30 @@
+.padre{
+    border: 2px #000 dotted;
+    display: block;
+    width: 500px;
+}
+
+.box{
+    display: inline-block;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#dos{
+    background-color: greenyellow;
+    position: static;
+    position: relative;
+    position: absolute;
+    top: 40px;
+}
+#tres{
+    background-color: darkgoldenrod;
+    position: -webkit-sticky    ;
+}

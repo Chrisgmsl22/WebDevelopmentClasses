@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+          border-collapse: collapse;
+          margin: 20px;
+          width: 80%;
+        }
+        th {
+          background-color: #2ecc71
+          ;
+          color: white;
+          font-weight: bold;
+          padding: 10px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: center;
+        }
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+        tr:hover {
+          background-color: #e6e6e6;
+        }
+        img {
+            max-width: 200px; /* Define el ancho máximo de la imagen */
+            height: auto; /* Ajusta la altura proporcionalmente al ancho */
+          }
+          
+      </style>
+    <title>Tablas html</title>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <th>Imagen</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="https://www.somosindustria.com/media/img/socials/fb_Autos-hibridos_01-19.jpg" alt="Coche híbrido">
+              <!-- <p>Pie de imagen:C</p> -->
+            </td>
+            <td>
+                <p>Se trata de un coche híbrido, su función será emitir menos gases toxicos y basar su uso más en la tecnología</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://m.media-amazon.com/images/I/71AGOX9MORL._AC_SL1500_.jpg" alt="Lap gamer">
+              
+            </td>
+            <td>
+                <p>Se trata de una Laptop gamer Asus Tuf Dash f15, personalmente es la que me gustaría comprar, pero deberá esperar al menos un año</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://labradores.org/wp-content/uploads/2020/05/labrador-amarillo.png" alt="Labrador">
+              
+            </td>
+            <td>Se trata de una raza de perros muy noble, los Labrador son perros de búsqueda y muy amigables, tuve uno y fue mi mejor amigo durante mi adolescencia</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://www.edmsauce.com/wp-content/uploads/2022/08/danny-howe-bn-D2bCvpik-unsplash-scaled.jpg" alt="Rave">
+              
+            </td>
+            <td>Se trata de un Rave, un evento de Techno/electrónica que busca la diversión y no aparentar nada, entre más clandestino y callejero sea, mejor ambiente tiene</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!-- Ahora pondré la etiqueta del video -->
+      <video src="sources/historiahtml.mp4" start="32" end="55" controls preload="auto">
+        <source src="sources/historiahtml.mp4" type="video/mp4">
+      </video>
+      <p>Considero que los momentos más importantes del video son donde explica el origen e inicio de la web, ya posterior a esos segundos del video explica más que nada las versiones de html, pero eso ya sería otro contexto</p>
+
+      <br> 
+      <audio controls preload="auto" loop>
+        <!-- Agrega la etiqueta source y especifica el archivo de audio -->
+        <source src="sources/cancion.mp3" type="audio/mpeg">
+      </audio>
+      <p>La etiqueta audio nos sirve para colocar algun audio que queramos desplegar en nuestra página web, de forma que dentro de este, sigue otra etiqueta llamada source donde con sus diferentes atributos nos sirven para configurar ciertos controles del audio, tales como pausa, mute, que se repita, entre otros.</p>
+      
+    
+</body>
+</html>
+
+
+<!-- Christian Gonzalez Magdaleno -->

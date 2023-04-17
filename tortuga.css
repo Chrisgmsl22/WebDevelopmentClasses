@@ -1,0 +1,33 @@
+.orange-box {
+    background-color: orange;
+    width: 950px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+    
+.cajaAzul {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 600px;
+    margin-top: -17px;
+    margin-left: 165px;
+    border: 2px solid black;
+}
+    
+img {
+    width: 200px;
+}
+    
+p, li {
+    color: whitesmoke;
+    font-size: larger;
+}
+    
+.box {
+    text-align: center;
+}
