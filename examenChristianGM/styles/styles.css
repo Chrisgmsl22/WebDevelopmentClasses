@@ -1,0 +1,145 @@
+.anonimous {
+
+    border-radius: 50% 50%;
+}
+
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: aquamarine;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    /* height: calc(100vh - 100px); */
+   
+}
+
+.izquierda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.blanco {
+    color: white;
+
+}
+
+.hr {
+    border-color: white;
+}
+
+.izquierda img {
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.derecha {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.derecha p {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Para las tarjetas de presentación del lado derecho */
+.contenido {
+    float: left;
+    width: 50%;
+}
+
+.contacto {
+    float: right;
+    width: 50%;
+}
+
+/* Estilos para la caja */
+.caja {
+    background-color: blue;
+    color: white;
+    padding: 50px;
+    height: 103px;
+}
+
+.caja h2 {
+    margin-top: 0;
+}
+
+.caja p {
+    margin-bottom: 0;
+}
+
+
+.caja-contacto {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.caja-contacto h2 {
+    margin-top: 0;
+}
+
+.caja-contacto p {
+    margin-bottom: 0;
+}
+
+/* Estilos para la lista de contacto */
+.contacto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto li {
+    margin-bottom: 10px;
+}
+
+
+/* Para la parte final, donde se tiene un listado del conocimiento */
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columnas ul {
+  list-style: none;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.columnas li {
+  margin-bottom: 10px;
+  list-style: circle;
+}
